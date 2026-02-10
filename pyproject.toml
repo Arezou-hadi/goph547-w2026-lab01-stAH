@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "goph547lab01"
+version = "0.1.0"
+description = "Lab 01 for GOPH 547: Gravity Forward Modelling"
+authors = [
+    {name = "Arezou Hadi Najafabadi"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
